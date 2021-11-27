@@ -10518,6 +10518,7 @@ GameObject:
   - component: {fileID: 395756712}
   - component: {fileID: 395756714}
   - component: {fileID: 395756713}
+  - component: {fileID: 395756715}
   m_Layer: 0
   m_Name: leather_Cube.002_Material.001
   m_TagString: Untagged
@@ -10586,6 +10587,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395756711}
   m_Mesh: {fileID: -3465355085607584338, guid: c348918c96b55554ebc389274384dacd, type: 3}
+--- !u!65 &395756715
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395756711}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.5, z: 0.5}
+  m_Center: {x: 0.25199026, y: 0.8511585, z: -0.3981576}
 --- !u!1 &397350141
 GameObject:
   m_ObjectHideFlags: 0
@@ -13440,6 +13454,12 @@ Transform:
 --- !u!4 &468535272 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1175574273613369320, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a,
+    type: 3}
+  m_PrefabInstance: {fileID: 468535269}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &468535273 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7774344186399642229, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a,
     type: 3}
   m_PrefabInstance: {fileID: 468535269}
   m_PrefabAsset: {fileID: 0}
@@ -24450,7 +24470,7 @@ PrefabInstance:
         type: 3}
       propertyPath: elements.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 468535273}
     - target: {fileID: 8680406507566844786, guid: 71fc6f8bc6839244ca08bcfe14432fa3,
         type: 3}
       propertyPath: elements.Array.data[2]
